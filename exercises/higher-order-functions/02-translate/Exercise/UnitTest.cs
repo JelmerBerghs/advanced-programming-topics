@@ -214,8 +214,8 @@ namespace Exercise
 
             void Check(IEnumerable<Movie> movies)
             {
-                var expected = I.Query3(movies);
-                var actual = F.Query3(movies);
+                var expected = I.Query4(movies);
+                var actual = F.Query4(movies);
 
                 Assert.Equal(expected, actual);
             }
